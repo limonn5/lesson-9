@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url("https://kfund.github.io/web-front-end/lesson10/assets/images/background.png") center center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;    
+}
+.logo{
+    width: 40px;
+    height: 40vh;
+    float: left;
+    margin: 15px 50px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-inner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-top{
+    width: 100%;
+    height: 100px;
+}
+.header-menu{
+    width: 50%;
+    height: 50vh;
+    float: right ;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 17px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+.welcome{
+    width: 100%;
+    height: 350px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.botom{
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 170px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size:x-large;
+}
+.botom:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 0, 0);
+}
+p{
+    margin: 35px;
+    font-size: x-large;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    display: flex;
+}
+.main-top{
+    width: 100%;
+    height: 200px;
+    color: rgb(65, 65, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.titleFirst{
+    margin: 70px 0px 0px 0px;
+}
+.title{
+    font-size: large;
+    margin: 1px
+}
+.line{
+    margin: 50px;
+    width: 50px;
+    size:3px;
+    border: none;
+    border-top: 3px solid rgb(65, 65, 65);
+    border-radius: 2px;
+}
+.main-inner{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin: 100px 0px 0px 0px;
+}
+.first{
+    width: 40%;
+    height: 50px;
+    float:left;
+ 
+}
+.botomA{
+    color: rgb(219, 0, 0);
+    height: 45px;
+    width: 45px;
+    padding: 25px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 1px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    margin: 0px 10px 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.botomA:hover{
+    background-color: rgb(219, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.subtitle{
+    text-align: center;
+    margin:  30px 160px ;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+.text1{
+    text-align: center;
+    margin:  30px 65px;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+.second{
+    width: 70%;
+    height: 50px;
+    float: right;
+}
+.botomB{
+    color: rgb(219, 0, 0);
+    height: 45px;
+    width: 45px;
+    padding: 25px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 0px 150px 0px 120px;
+    display: flex;
+
+}
+.two{
+    margin: 0px 12px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.botomB:hover{
+    background-color: rgb(219, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.subtitle2{
+    text-align: center;
+    margin:  30px 50px 0px 0px;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+.text2{
+    text-align: center;
+    margin:  30px 30px 0px 0px;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+.third{
+    width: 40%;
+    height: 50px;
+    float: right;
+}
+.botomC{
+    color: rgb(219, 0, 0);
+    height: 45px;
+    width: 45px;
+    padding: 25px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 1px 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i {
+    margin: 20px;
+    font-size: 3px;
+    font-weight: bold;
+}
+.botomC:hover{
+    background-color: rgb(219, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.subtitle3{
+    text-align: right;
+    margin:  30px 150px 0px 0px;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+.text3{
+    text-align: center;
+    margin:  30px 50px;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+.end{
+    width: 100%;
+    height: 330px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba( 0, 0, 0, 0.2));
+    background-color:rgb(218, 33, 0);
+    background-size: contain;
+    display: flex;
+}
+.twitter{
+    color: rgb(255, 255, 255);
+    height: 32px;
+    width: 32px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 100px  0px 0px 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter2{
+    color: rgb(255, 255, 255);
+    height: 32px;
+    width: 32px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 100px 0px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter3{
+    color: rgb(255, 255, 255);
+    height: 32px;
+    width: 32px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 100px 0px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter4{
+    color: rgb(255, 255, 255);
+    height: 32px;
+    width: 32px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    font-size:x-large;
+    margin: 100px 0px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text4{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: flex;
+
+}
+@media screen and (max-width: 767px ){
+    
+}
